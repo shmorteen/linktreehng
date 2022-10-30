@@ -19,13 +19,13 @@ class Linktree extends React.Component {
       <div className="d-flex flex-row justify-content-center">
         <div className="d-md-flex d-none flex-column align-items-center mb-3" style={{marginLeft: 200 }}>
           <img id="profile__img" alt="ProImg" src="assets/FaceApp_1654715597265~2.jpg" style={{borderRadius: 100, height: 50, width: 50}}/>
-          <h6 id="twitter" className="mt-2" style={{fontWeight: "bold",}}>Shmorteen</h6>
-          <h6 id="slack" className="d-none" style={{fontWeight: "bold",}}>Shmorteen</h6>
+          <h5 id="twitter" className="mt-2" style={{fontWeight: "bold",}}>Shmorteen</h5>
+          <h5 id="slack" className="d-none" style={{fontWeight: "bold",}}>Shmorteen</h5>
         </div>
         <div className="d-flex d-md-none flex-column align-items-center mb-3">
           <img id="profile__img" alt="ProImg" src="assets/FaceApp_1654715597265~2.jpg" style={{borderRadius: 100, height: 60, width: 60}}/>
-          <h6 id="twitter" className="mt-2" style={{fontWeight: "bold",}}>Shmorteen</h6>
-          <h6 id="slack" className="d-none" style={{fontWeight: "bold",}}>Shmorteen</h6>
+          <h5 id="twitter" className="mt-2" style={{fontWeight: "bold",}}>Shmorteen</h5>
+          <h5 id="slack" className="d-none" style={{fontWeight: "bold",}}>Shmorteen</h5>
         </div>
         <div className="d-md-flex d-none border P-1" style={{marginLeft: 170, borderRadius: 50, height: 20}} >
           <img src="assets/up-arrow.png" style={{width: 20, height: 15 }}/>
