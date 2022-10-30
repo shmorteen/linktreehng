@@ -67,7 +67,7 @@ class Linktree extends React.Component {
           style={{ height: 60, borderRadius: 10 }}
         >
           <a className="btn" id="books"
-          title="Books on Design and Coding can be found here"
+          title="Existing books on Design and Coding are avaliable"
             style={{
               textDecoration: "none",
               fontWeight: "bolder",
@@ -84,14 +84,14 @@ class Linktree extends React.Component {
           style={{ height: 60, borderRadius: 10 }}
         >
           <a className="btn" id="book_python"
-            title="subtext"
+            title="Educative books about coding sold for affordable price"
             style={{
               textDecoration: "none",
               fontWeight: "bolder",
               color: "black",
               borderRadius: 10
             }}
-            href="http://books.zuri.team/python-for-beginners?ref_id=Mateen"
+            href="http://books.zuri.team/python-for-beginners?ref_id=Abdul-Mateen"
           >
             Python Books
           </a>
@@ -101,7 +101,7 @@ class Linktree extends React.Component {
           style={{ height: 60, borderRadius: 10 }}
         >
           <a className="btn" id="pitch"
-            title="subtext"
+            title="Code reviews and debugging for coders"
             style={{
               textDecoration: "none",
               fontWeight: "bolder",
