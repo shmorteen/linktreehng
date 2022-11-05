@@ -1,15 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import {Link, Outlet } from "react-router-dom"
 
 
-
-
-
-
 class LinkTree extends React.Component {
- 
-
   render() {
     return (
       <>
@@ -183,7 +176,6 @@ class LinkTree extends React.Component {
   </div>
   <Outlet />
 </>
-
     );
   }
 }
