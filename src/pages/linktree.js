@@ -20,7 +20,7 @@ class LinkTree extends React.Component {
           <h5 id="slack" className="d-none" style={{fontWeight: "bold",}}>Shmorteen</h5>
         </div>
         <div className="d-md-flex d-none border P-1" style={{marginLeft: 170, borderRadius: 50, height: 20}} >
-          <img src="assets/up-arrow.png" style={{width: 20, height: 15 }}/>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAQCAYAAAAbBi9cAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAG4SURBVHgBnZNBUsJQDIaT97pwp96g3sAjlLWCcAFqV4ou9AbgCcSFg6yKeIAi1XHJeALwBHIDWTkyw3sx75Vi1cIomenMm7zkS/LnFWGFtcN+GQTW+dg78osXq2LFqkstoEwIu/w12rdxfW1QxnoGdtONozCMttYGHVeLFSIwo5WnQg5bYeT+C4QAi+o1v9iwMEQXhRz8hOWCjB6tbvzGSQdZv4UpCghxC6QztMvIA7XCJ5chQ6OHdZC+4nPhGywodbQSBQSckMQoXQJmISjUAJBcM8KGnjWDoDKBJWbjJccDx3OXzkKPFMJOUxX+YjRvRQI4Cb1/mEDgIoWYNb8DuDz7pBZUxtn86/BxlwtH2RwLEgLPCGjMjoaBokR/CuDJpKgZbzuFtG8ffI26aZqBTPeYzDp7RYIRC2uSvCSZXgThpnnZ/I6slu27uM76NfhurJSsnAZ7o7SAAOfDteNygoUYodVsp1YteZphi046/csUQkoVshBjDpB058r9qpIa/xoDsp3S84ZS5bxtOlrJkRDqHrQ6Pw1KY8g3j8W6qvml8yX3X+8oz1ph7KGkpgbROanuN1fFfgJzU+KqkhOgywAAAABJRU5ErkJggg==" style={{width: 20, height: 15 }}/>
         </div>
       </div>
       <div className="d-flex flex-column justify-content-center w-100 px-md-5">
@@ -167,10 +167,10 @@ class LinkTree extends React.Component {
         <img style={{height: 30, width: 100}} src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKoAAAAdCAYAAAA6ufdPAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAUCSURBVHgB7ZpNjts2FMf/mmn32g5QYDi7oF1UCbqPeoJOTzDKCZw5gd0T2D2BlRNkbiBnX2RcoAi6M7uapd1N0UViRS8iR0+0PixZkp2EP4A2RYrkE/nI90gJsFgsFovFYrFYLBaLxfJl4uD0EepfwjI0XhJGKr5Jwi2aQeWlKtsJkyTEDcIcwzBlbd7gMHzkn8GHpQ4fWX+t0IzXqtwaHfT1GU4XNwkv2fWvOE1oxaFBuU/CNSyEQNYX5ji24hu041/0D5kLicz0r3Ga0ID4Ku7CQmxU0P2xwAAI5E3mCpnyDNH2DKlrcqgS+OjH9EeszgBfFj7am36BbOwOZp8VNTKuX2C4jY1EB2bDchQkOhy7Oh91jPzq+Rt2l3HaWEUqeEaey/KimnKeitPMvVT3TNk9ffp/HmvntUoLmDz3Sl7Byuhn4888YvVMjDao7FTVV1bnPvLMD5CZM2b3rlQdAapxjXJVbfDx5WPns/SpqtPslxEaWG0fuya/iBXKzakw6igrR4Ku2fWluqdLs+qj3PTzvJXRrtkHbsmzVZ2MjIznM8O4QlZqk59+RAfIrLmvkCUqkWNdUW6NXcVaoXjsAkO2VYXcj3WWrah0w5xdk2P8M/qDTMSpbEQEMiWWBXncnJn5egNIQW84faS+mmuU42eLE5T7zAL1JlRgf5kDZFaAZAiRt5KvUIzLysmCvDGaI1B+Tk7pEWr0gpSUa3dVR3WxoupZaW6c+CoR4DB87LeiUrhH1oEC+ZVkZdRbJ2Nk1Ms7PkT9SsbzZ6yNtjJPWPqMpQvsuit+QRvcovBnM09l9llRdZ1eiXyVumdWNEc1XShqbplnHEtRTV/7GuUDUiWjKGhTsOAh7xK4JfJMUP88+8r8ErvjK1CMb9wravI5fHwDlh7U1EmELP+OEsxdPxUas2uJdAPVN7/jgJOEh2ffB3Cc546Dzftt/Od3b9+FaA+Zw6WRJlm8iYsijOuo5n5StkVBeohqmsgcIr9ZCVRYIDX7IYqR2B0jicNYlNRB6Tcq/iP9mIpqzq6hjqKWaMnDsx/mcNIZGyfz7zzR1kRxLy/evms7wTZ7pg2FRP0YNJFZ7zdorH2W7qtwiWEWJ0Lum843U7SS+uy66CiqDnO18dAj6Upa4BI4zuThpyc+jo+pLE+TcFURWk/YhkikykryvEJeMSbITl365rok/RcW/9SHWlEF8n6QRLs3Cs9ZXJ+P9cY2jv2yvHjr9DpJSjAnKikeV1YyuZKFjUpz0fFXRjUESMd8qeJPkVfWKwxD0WmBh7xP+4Z+tKKaGyaB4rOtog3WGxYnRz1S+Sv0/KrVcZxjmmTNPyxOSkfPTpsXrbTcjAbIDtd1H+k+u8EwBMgO46fq2jxgH7JfJ0j7QctknozM6KftRymcEPlO9lmcf5jQOc7Z2V3imI520uNEgbfxHYYhRPb8AtlqQP8zFSh9xO4RRh3UR0N9G8xlLTr6oX4bygXR+iFQfKrzuEfq4jO/BdJP8GRJem9c/PHXIllWc44/KWl8vr29WP4tMQwL7G4+9NdDGlKIoo3pRpUn0xtiGMg3vS2RhU5fXmA4aEKU6Q7JGeqErmexwPD+Fh68J2J7/q13Fn9w/9/+d3e1lMdwCfSbG4nqXTq/z1TooTmGLAEy13GB7I0nf+t1Ci6d5SsnQPHbuEpO+Qt/i+URq6iWz4Iudv0WSxP0BpLY+3ThI5aoO0ck9MgFAAAAAElFTkSuQmCC" />
         </div>
         <div className="col-md-4 col-sm-12 text-md-center text-sm-start">
-        <h6 style={{fontWeight: 'light',}}>HNG Internship 9 Frontend Task</h6>
+        <h6 style={{fontWeight: 400,}}>HNG Internship 9 Frontend Task</h6>
         </div>
         <div className="col-md-4 col-sm-12 text-md-end text-sm-start">
-        <img style={{height: 80, width: 150}} src="https://training.zuri.team/ingresive.jpg" />
+        <img style={{height: 20, width: 100}} src="https://profound-sawine-367b11.netlify.app/assets/I4G.75927fc6.png" />
         </div>
     </div>
   </div>
